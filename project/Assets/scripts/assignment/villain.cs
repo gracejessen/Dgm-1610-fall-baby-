@@ -2,17 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class villain : MonoBehaviour
 {
+    string firstname = "catra";
+    int age = 17;
+    float height = 5.7f; 
+    bool relationship = false; 
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log ("firstname"+ firstname);
+        Debug.Log("age" + age);
+        Debug.Log("height" + height);
+        Debug.Log (" relationship"  + relationship);
     }
+        
+    
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }

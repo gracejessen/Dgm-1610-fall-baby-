@@ -5,18 +5,18 @@ using UnityEngine;
 public class variables : MonoBehaviour
 {
     string firstname = "grace";
-    Int age = 19;
-    float height = 5.8; 
+    int age = 19;
+    float height = 5.8f; 
     bool relationship = false; 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log "firstname "+ (firstname);
-        Debug.Log"age" + (age);
-        Debug.Log"height" + (height);
-        Debug.Log" relationship" + (relationship);
+        Debug.Log ("firstname "+ firstname);
+        Debug.Log("age" + age);
+        Debug.Log("height" + height);
+        Debug.Log(" relationship" + relationship);
     }
 
 
