@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playercontrol : MonoBehaviour
-{
-    public float speed = 20;
+public class camerastuff : MonoBehaviour
+{ public GameObject player;
+private Vector3 offset = new Vector3(0, 5, -7);
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +14,7 @@ public class playercontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //this code makes the player move.
-        transform.Translate(Vector3.forward*Time.deltaTime* speed);
+        transform.position = player.transform.position + offset;
+
     }
 }
