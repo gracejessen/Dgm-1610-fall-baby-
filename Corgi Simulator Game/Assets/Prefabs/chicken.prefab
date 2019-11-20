@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 98526564899599138}
   - component: {fileID: 98526564899599134}
   - component: {fileID: 1522724964}
+  - component: {fileID: 537615390559279407}
   m_Layer: 0
   m_Name: chicken
   m_TagString: Untagged
@@ -88,7 +89,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98526564899599139}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -116,5 +117,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07dbfb2ad87c6bb4cb2ce0654270e4fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &537615390559279407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98526564899599139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9215e44121834b24783b1b3d8d19aad8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/scripts/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/DeleteCollisions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/MoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/DestroyOutOfBounds.cs" root0="FORCE_HIGHLIGHTING" />
@@ -20,10 +21,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/MoveForward.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/DestroyOutOfBounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/DeleteCollisions.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +80,9 @@
       <workItem from="1574138900012" duration="1000000" />
       <workItem from="1574140276324" duration="2065000" />
       <workItem from="1574142764683" duration="1786000" />
+      <workItem from="1574222806659" duration="1054000" />
+      <workItem from="1574223919489" duration="775000" />
+      <workItem from="1574230279411" duration="590000" />
     </task>
     <servers />
   </component>
