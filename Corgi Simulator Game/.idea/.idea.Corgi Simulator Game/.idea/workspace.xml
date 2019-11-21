@@ -13,7 +13,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/scripts/SpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/DeleteCollisions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/repeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/MoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/DestroyOutOfBounds.cs" root0="FORCE_HIGHLIGHTING" />
@@ -22,10 +23,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/scripts/MoveForward.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/DestroyOutOfBounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/DeleteCollisions.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/RepeatBackground.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/DeleteCollisions.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/DestroyOutOfBounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/repeatBackground.cs" />
       </list>
     </option>
   </component>
@@ -83,6 +87,18 @@
       <workItem from="1574222806659" duration="1054000" />
       <workItem from="1574223919489" duration="775000" />
       <workItem from="1574230279411" duration="590000" />
+      <workItem from="1574311594548" duration="672000" />
+      <workItem from="1574313944291" duration="1572000" />
+      <workItem from="1574318544782" duration="85000" />
+      <workItem from="1574318781519" duration="2098000" />
+      <workItem from="1574320908373" duration="2104000" />
+      <workItem from="1574323056933" duration="1549000" />
+      <workItem from="1574324991683" duration="108000" />
+      <workItem from="1574325121345" duration="515000" />
+      <workItem from="1574325866324" duration="925000" />
+      <workItem from="1574328373904" duration="132000" />
+      <workItem from="1574329584808" duration="1115000" />
+      <workItem from="1574332151233" duration="2000" />
     </task>
     <servers />
   </component>

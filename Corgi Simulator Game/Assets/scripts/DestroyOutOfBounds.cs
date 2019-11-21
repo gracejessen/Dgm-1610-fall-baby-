@@ -24,4 +24,10 @@ public class DestroyOutOfBounds : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+        Destroy(other.gameObject);
+        Debug.Log("Game Over!");
+    }
 }
