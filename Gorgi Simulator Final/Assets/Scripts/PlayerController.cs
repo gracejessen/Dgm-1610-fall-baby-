@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public float speed = 5.0f;
     public float xRange = 3;
+    public float gravityModifier;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +42,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Game Over!");
         }
 
-        if (other.gameObject.name == "powerup")
+        if (other.gameObject.CompareTag("powerup"))
         {
             Destroy(other.gameObject);
             Debug.Log("Powerup!");

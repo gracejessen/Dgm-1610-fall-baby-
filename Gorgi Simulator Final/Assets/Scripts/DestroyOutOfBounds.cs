@@ -12,20 +12,7 @@ public class DestroyOutOfBounds : MonoBehaviour
     {
         
     }
-  void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag == "lethal")
-        {
-            Destroy(gameObject);
-            Destroy(other.gameObject);
-            Debug.Log("Game Over!");
-        }
-        if (other.gameObject.name == "powerup")
-        {
-            Destroy(other.gameObject);
-            Debug.Log("Powerup!");
-        }
-    }
+
     // Update is called once per frame
     void Update()
     {

@@ -7,9 +7,10 @@ public class GameManager : MonoBehaviour
     public GameObject[] ObsticalPrefabs;
     public GameObject[] PowerupPrefabs;
     private float spawnRangeX = 5;
-    private float spawnPosZ = 10;
+    private float spawnPosZ = 5;
     private float startDelay = 2;
     private float repeatRate = 2;
+    private float counter = 0;
     private PlayerController playerControllerScript;
    
     // Start is called before the first frame update
@@ -40,3 +41,10 @@ public class GameManager : MonoBehaviour
         
     }
 }
+
+
+
+/*if(capsule or chicken is hit)
+{
+    counter += 1;
+}*/

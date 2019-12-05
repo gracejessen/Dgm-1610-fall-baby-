@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2993830348548702908}
   - component: {fileID: 2993830348548702904}
   - component: {fileID: 2993830348548702905}
+  - component: {fileID: 4832968260412531947}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: powerup
@@ -88,7 +89,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2993830348548703043}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -118,3 +119,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf33059ee67979408ba751ac256dee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &4832968260412531947
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993830348548703043}
+  serializedVersion: 2
+  m_Mass: 0.07
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
