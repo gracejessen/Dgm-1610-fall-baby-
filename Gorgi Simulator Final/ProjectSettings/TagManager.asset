@@ -4,11 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Obsticals
-  - Lethal
+  - Ground
   - lethal
   - powerup
   - Corgi
+  - yum
   layers:
   - Default
   - TransparentFX

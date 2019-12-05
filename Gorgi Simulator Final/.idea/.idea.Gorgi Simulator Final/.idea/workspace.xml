@@ -12,21 +12,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Create with code assets/Challenge 2/Scripts/SpawnManagerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RepeatBackground.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DifficultyButtons.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Effects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RepeatBackground.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DifficultyButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -81,6 +86,19 @@
       <workItem from="1575457103370" duration="1394000" />
       <workItem from="1575458924815" duration="1824000" />
       <workItem from="1575460817570" duration="1049000" />
+      <workItem from="1575526614720" duration="2086000" />
+      <workItem from="1575528862591" duration="1655000" />
+      <workItem from="1575531355607" duration="1387000" />
+      <workItem from="1575533660827" duration="1782000" />
+      <workItem from="1575535480871" duration="41000" />
+      <workItem from="1575535963223" duration="1794000" />
+      <workItem from="1575537851275" duration="1794000" />
+      <workItem from="1575539671308" duration="2010000" />
+      <workItem from="1575541695593" duration="1794000" />
+      <workItem from="1575543511825" duration="1111000" />
+      <workItem from="1575544824848" duration="1649000" />
+      <workItem from="1575546686643" duration="1794000" />
+      <workItem from="1575548498469" duration="560000" />
     </task>
     <servers />
   </component>
