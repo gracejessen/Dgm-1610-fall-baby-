@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7676227870064945314}
   - component: {fileID: 7676227870064945313}
   - component: {fileID: 2011098303495038458}
+  - component: {fileID: 8572601975072362784}
   m_Layer: 0
   m_Name: Obstical
   m_TagString: lethal
@@ -90,7 +91,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7676227870064945319}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.1006346, y: 1, z: 1.3854963}
@@ -107,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5aff08822e0b43b623ef198fe026b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 10
 --- !u!114 &7676227870064945313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +137,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &8572601975072362784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7676227870064945319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b17b2809460e3489a70d91b2c91ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &1671059219755325680
 BoxCollider:
   m_ObjectHideFlags: 0

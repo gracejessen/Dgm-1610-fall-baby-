@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Create with code assets/Challenge 2/Scripts/SpawnManagerX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,10 +29,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOutOfBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RepeatBackground.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DifficultyButtons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveForward.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DetectCollisions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DifficultyButtons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +100,14 @@
       <workItem from="1575543511825" duration="1111000" />
       <workItem from="1575544824848" duration="1649000" />
       <workItem from="1575546686643" duration="1794000" />
-      <workItem from="1575548498469" duration="560000" />
+      <workItem from="1575548498469" duration="1160000" />
+      <workItem from="1575696884023" duration="1198000" />
+      <workItem from="1575699262854" duration="1814000" />
+      <workItem from="1575701096966" duration="1474000" />
+      <workItem from="1575708719852" duration="1821000" />
+      <workItem from="1575710620922" duration="1850000" />
+      <workItem from="1575712497133" duration="1831000" />
+      <workItem from="1575714352286" duration="589000" />
     </task>
     <servers />
   </component>

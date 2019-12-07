@@ -12,8 +12,7 @@ public class GameManager : MonoBehaviour
     private float spawnRangeX = 6;
     private float spawnPosZ = 50;
     private float startDelay = 2;
-    private float repeatRate = 7;
-    private float counter = 0;
+    private float repeatRate = 5;
     private int score;
     public GameObject TitleScreen;
     public Button restartButton;
@@ -21,11 +20,10 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI GameOvertext;
     private PlayerController playerControllerScript;
-   
+
     // Start is called before the first frame update
     void Start()
     {
-       
     }
     // Update is called once per frame
     void Update()
@@ -72,11 +70,11 @@ public class GameManager : MonoBehaviour
 
    public void Startgame(int difficulty)
    {
+       repeatRate /= difficulty;
        InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
        InvokeRepeating("SpawnPowerup", startDelay, repeatRate);
        playerControllerScript = GameObject.Find("Corgi").GetComponent<PlayerController>();
        score = 0;
-       repeatRate = repeatRate / difficulty;
        UpdateScore(0);
        TitleScreen.gameObject.SetActive(false);
    }

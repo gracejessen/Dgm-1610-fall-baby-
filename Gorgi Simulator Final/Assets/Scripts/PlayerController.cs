@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             gameManager.GameOver();
             Debug.Log("Game Over!");
-            PlayerAnim.SetBool("Sit_b", true);
+            PlayerAnim.SetBool("Eat_b", true);
         }
         
             
